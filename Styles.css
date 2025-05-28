@@ -39,7 +39,7 @@ nav {
 }
 
 .banner {
-  background-image: url('Suits background.jpg') ;
+  background-image: url('https://www.google.com/imgres?=suit%20collection&imgurl=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0291%2F6266%2F8110%2Ffiles%2Fessential-mens-suit-collection-display_1024x1024.png%3Fv%3D1735728519&imgrefurl=https%3A%2F%2Fwestwoodhart.com%2Fblogs%2Fwestwood-hart%2Fmens-essential-suits-business-professional-guide&docid=aqlkkZe2_pNmHM&tbnid=V96XXpgrhdLceM&vet=12ahUKEwj9mNzkycWNAxViUkEAHT5yORcQM3oECFkQAA..i&w=1024&h=574&hcb=2&ved=2ahUKEwj9mNzkycWNAxViUkEAHT5yORcQM3oECFkQAA') ;
   text-align: center;
   padding: 4rem;
   color: #ffffff;
@@ -472,9 +472,29 @@ footer {
   border-color: #ff9800;
 }
 
-@media (max-width: 768px) {
+@media (max-width: device-width: 768px) {
   .nav-links {
     flex-direction: column;
-    align-items: end;
+    align-items: center;
+  }
+  .product img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  .shop-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .categories {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .catalogue-list {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+  .checkout-main {
+    width: 90%;
+    padding: 24px;
   }
 }
