@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Watches</title>
+  <link rel="stylesheet" href="Styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>WATCHES</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <li class="cart-link">
+        <a href="Cart.html">
+          <i class="fa fa-shopping-cart"></i>
+          <span id="cart-count">0</span>
+        </a>
+      </li>
+    </nav>
+  </header>
+  <main class="shop-main">
+    <section class="categories">
+      <h3>Categories</h3>
+      <div class="category-list">
+        <a href="Suits.html" class="category-card"><i class="fa fa-male"></i>Suits</a>        
+        <a href="Watches.html" class="category-card"><i class="fa fa-clock-o"></i>Watches</a>
+        <a href="Colognes.html" class="category-card"><i class="fa fa-flask"></i>Colognes</a>
+        <a href="Ties.html" class="category-card"><i class="fa fa-slack"></i>Ties</a>   
+      </div>
+    </section>
+    <section class="catalogue">
+      <h2>Watches</h2>
+      <div class="catalogue-list">
+        <div class="catalogue-card">
+          <img src="c:\Users\TUMELO MOTHUSI\OneDrive - Botswana Accountancy College\Desktop\42729103_h.webp" alt="Police Watch">
+          <h4>Police Watch</h4>
+          <span class="price">P350.00</span>
+          <button class="add-to-cart-btn" onclick="addToCart('Police Watch')">
+            <i class="fa fa-shopping-cart"></i> Add to Cart
+        </div>
+        <div class="catalogue-card">
+          <img src="c:\Users\TUMELO MOTHUSI\OneDrive - Botswana Accountancy College\Desktop\40143390_h.webp" alt="Rotary Silver">
+          <h4>Rotary Silver</h4>
+          <span class="price">P600.00</span>
+          <button class="add-to-cart-btn" onclick="addToCart('Rotary Silver')">
+            <i class="fa fa-shopping-cart"></i> Add to Cart
+        </div>
+        <div class="catalogue-card">
+          <img src="c:\Users\TUMELO MOTHUSI\OneDrive - Botswana Accountancy College\Desktop\75290318_h.webp" alt="Boss Watch Grey with gold strip">
+          <h4>Boss Watch Grey with gold strip</h4>
+          <span class="price">P400.00</span>
+          <button class="add-to-cart-btn" onclick="addToCart('Boss Watch Grey with gold strip')"> 
+            <i class="fa fa-shopping-cart"></i> Add to Cart
+        </div>
+        <div class="catalogue-card">
+          <img src="c:\Users\TUMELO MOTHUSI\OneDrive - Botswana Accountancy College\Desktop\88453702_h.webp" alt="Boss Watch Black and red">
+          <h4>Boss Watch Black and red</h4>
+          <p>Stand out with subtle patterns and style.</p>
+          <span class="price">P500.00</span>
+          <button class="add-to-cart-btn" onclick="addToCart('Boss Watch Black and red')">
+            <i class="fa fa-shopping-cart"></i> Add to Cart
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GentsCorner. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+      <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
+      <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

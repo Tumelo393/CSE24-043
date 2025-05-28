@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout | Gents Corner</title>
+  <link rel="stylesheet" href="Styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  <main class="checkout-main">
+    <h2>Checkout</h2>
+    <form class="checkout-form">
+      <div class="form-section">
+        <h3>Billing Details</h3>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Phone Number" required>
+        <input type="text" placeholder="Address" required>
+        <input type="text" placeholder="City" required>
+        <input type="text" placeholder="Postal Code" required>
+      </div>
+      <div class="form-section">
+        <h3>Payment</h3>
+        <input type="text" placeholder="Card Number" required>
+        <input type="text" placeholder="Cardholder Name" required>
+        <div class="payment-row">
+          <input type="text" placeholder="MM/YY" required>
+          <input type="text" placeholder="CVV" required>
+        </div>
+      </div>
+      <button type="submit" class="checkout-btn">
+        Checkout<i class="fa fa-credit-card"></i>
+      </button>
+      <a href="shop.html" class="back-to-shop-btn">
+        <i class="fa fa-arrow-left"></i> Back to Shop
+      </a>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 GentsCorner. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+      <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
+      <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

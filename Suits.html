@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Suits</title>
+  <link rel="stylesheet" href="Styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>SUITS</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <li class="cart-link">
+        <a href="Cart.html">
+          <i class="fa fa-shopping-cart"></i>
+          <span id="cart-count">0</span>
+        </a>
+      </li>
+    </nav>
+  </header>
+  <main class="shop-main">
+    <section class="categories">
+      <h3>Categories</h3>
+      <div class="category-list">
+        <a href="Suits.html" class="category-card"><i class="fa fa-male"></i>Suits</a>        
+        <a href="Watches.html" class="category-card"><i class="fa fa-clock-o"></i>Watches</a>
+        <a href="Colognes.html" class="category-card"><i class="fa fa-flask"></i>Colognes</a>
+        <a href="Ties.html" class="category-card"><i class="fa fa-slack"></i>Ties</a>   
+      </div>
+    </section>
+    <section class="catalogue">
+      <h2>Suits</h2>
+      <div class="catalogue-list">
+        <div class="catalogue-card">
+          <img src="c:\Users\TUMELO MOTHUSI\OneDrive - Botswana Accountancy College\Desktop\8be6958a59de68c37ec015c4677ba555.jpg" alt="Classic Navy Suit">
+          <h4>Classic Navy Suit</h4>
+          <p>Timeless elegance for every occasion.</p>
+          <span class="price">P999.00</span>
+          <button class="add-to-cart-btn" onclick="addToCart('Classic Navy Suit')">
+            <i class="fa fa-shopping-cart"></i> Add to Cart
+          </button>
+        </div>
+        <div class="catalogue-card">
+          <img src="c:\Users\TUMELO MOTHUSI\OneDrive - Botswana Accountancy College\Desktop\5c08c956e24b705c7fc73fe90036e527.jpg" alt="Black Slim Fit Suit">
+          <h4>Black Slim Fit Suit</h4>
+          <p>Modern fit, perfect for business or events.</p>
+          <span class="price">P1099.00</span>
+          <button class="add-to-cart-btn" onclick="addToCart('Grey Slim Fit Suit')">
+            <i class="fa fa-shopping-cart"></i> Add to Cart
+          </button>
+        </div>
+        <div class="catalogue-card">
+          <img src="c:\Users\TUMELO MOTHUSI\OneDrive - Botswana Accountancy College\Desktop\5a8638527fa21aada6ad541486b6c133.jpg" alt="Black Tuxedo">
+          <h4>Black Tuxedo</h4>
+          <p>For your most formal moments and celebrations.</p>
+          <span class="price">P1299.00</span>
+          <button class="add-to-cart-btn" onclick="addToCart('Black Tuxedo')">
+            <i class="fa fa-shopping-cart"></i> Add to Cart
+          </button>
+        </div>
+        <div class="catalogue-card">
+          <img src="c:\Users\TUMELO MOTHUSI\OneDrive - Botswana Accountancy College\Desktop\717cfa6ba6866c88bf61b4e0340f4a99.jpg" alt="Green Suit">
+          <h4>Green Suit</h4>
+          <p>Stand out with a subtle style.</p>
+          <span class="price">P1199.00</span>
+          <button class="add-to-cart-btn" onclick="addToCart('Blue Checked Suit')">
+            <i class="fa fa-shopping-cart"></i> Add to Cart
+          </button>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GentsCorner. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+      <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
+      <a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
