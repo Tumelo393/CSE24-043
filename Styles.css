@@ -788,4 +788,194 @@ footer {
     height: auto;
     padding: 2rem;
   }
+  .product-menu .main-product h2, .product-menu .suggested-items h3 {
+    text-align: center;
+  }
+  .product-menu .main-product ul, .product-menu .suggested-items ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-menu .main-product li, .product-menu .suggested-items li {
+    text-align: center;
+  }
+  .product-menu .main-product button, .product-menu .suggested-items button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+  .product-menu .main-product .nav-shop, .product-menu .suggested-items .nav-shop {
+    text-align: center;
+  }
+  .product-menu .main-product .nav-shop a, .product-menu .suggested-items .nav-shop a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .product-menu .main-product .nav-shop a:hover, .product-menu .suggested-items .nav-shop a:hover {
+    transform: scale(1.1);
+  }
+  .product-menu .main-product img, .product-menu .suggested-items img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  .product-menu .main-product h2, .product-menu .suggested-items h3 {
+    text-align: center;
+  }
+  .product-menu .main-product ul, .product-menu .suggested-items ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-menu .main-product li, .product-menu .suggested-items li {
+    text-align: center;
+  }
+  .product-menu .main-product button, .product-menu .suggested-items button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+  .product-menu .main-product .nav-shop, .product-menu .suggested-items .nav-shop {
+    text-align: center;
+  }
+  .product-menu .main-product .nav-shop a, .product-menu .suggested-items .nav-shop a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .product-menu .main-product .nav-shop a:hover, .product-menu .suggested-items .nav-shop a:hover {
+    transform: scale(1.1);
+  }
+  .product-menu .main-product img, .product-menu .suggested-items img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  .product-menu .main-product h2, .product-menu .suggested-items h3 {
+    text-align: center;
+  }
+  .product-menu .main-product ul, .product-menu .suggested-items ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-menu .main-product li, .product-menu .suggested-items li {
+    text-align: center;
+  }
+  .product-menu .main-product button, .product-menu .suggested-items button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+  .product-menu .main-product .nav-shop, .product-menu .suggested-items .nav-shop {
+    text-align: center;
+  }
+  .product-menu .main-product .nav-shop a, .product-menu .suggested-items .nav-shop a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .product-menu .main-product .nav-shop a:hover, .product-menu .suggested-items .nav-shop a:hover {
+    transform: scale(1.1);
+  }
+  .product-menu .main-product img, .product-menu .suggested-items img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  .product-menu .main-product h2, .product-menu .suggested-items h3 {
+    text-align: center;
+  }
+  .product-menu .main-product ul, .product-menu .suggested-items ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-menu .main-product li, .product-menu .suggested-items li {
+    text-align: center;
+  }
+  .product-menu .main-product button, .product-menu .suggested-items button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+  .product-menu .main-product .nav-shop, .product-menu .suggested-items .nav-shop {
+    text-align: center;
+  }
+  .product-menu .main-product .nav-shop a, .product-menu .suggested-items .nav-shop a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .product-menu .main-product .nav-shop a:hover, .product-menu .suggested-items .nav-shop a:hover {
+    transform: scale(1.1);
+  }
+  .product-menu .main-product img, .product-menu .suggested-items img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  .product-menu .main-product h2, .product-menu .suggested-items h3 {
+    text-align: center;
+  }
+  .product-menu .main-product ul, .product-menu .suggested-items ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-menu .main-product li, .product-menu .suggested-items li {
+    text-align: center;
+  }
+  .product-menu .main-product button, .product-menu .suggested-items button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+  .product-menu .main-product .nav-shop, .product-menu .suggested-items .nav-shop {
+    text-align: center;
+  }
+  .product-menu .main-product .nav-shop a, .product-menu .suggested-items .nav-shop a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .product-menu .main-product .nav-shop a:hover, .product-menu .suggested-items .nav-shop a:hover {
+    transform: scale(1.1);
+  }
+  .product-menu .main-product img, .product-menu .suggested-items img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  .product-menu .main-product h2, .product-menu .suggested-items h3 {
+    text-align: center;
+  }
+  .product-menu .main-product ul, .product-menu .suggested-items ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-menu .main-product li, .product-menu .suggested-items li {
+    text-align: center;
+  }
+  .product-menu .main-product button, .product-menu .suggested-items button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+  }
+  .product-menu .main-product .nav-shop, .product-menu .suggested-items .nav-shop {
+    text-align: center;
+  }
+  .product-menu .main-product .nav-shop a, .product-menu .suggested-items .nav-shop a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .product-menu .main-product .nav-shop a:hover, .product-menu .suggested-items .nav-shop a:hover {
+    transform: scale(1.1);
+  }
+  .product-menu .main-product img, .product-menu .suggested-items img {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+  .product-menu .main-product h2, .product-menu .suggested-items h3 {
+    text-align: center;
+  }
+  .product-menu .main-product ul, .product-menu .suggested-items ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-menu .main-product li, .product-menu .suggested-items li {
+    text-align: center;
+  }
 }
